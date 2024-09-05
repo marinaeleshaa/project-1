@@ -21,6 +21,12 @@ a {
   text-transform: capitalize;
 }
 
+.sec2-item2,
+.sec7-item2,
+.sec8-item2 {
+  margin: 0px 5%;
+}
+
 header {
   position: fixed;
   z-index: 1000;
@@ -245,13 +251,6 @@ button:hover {
   color: var(--dark);
 }
 
-.sec2-item2,
-.sec4-item2,
-.sec7-item2,
-.sec8-item2 {
-  margin: 0px 5%;
-}
-
 .sec2-item::before {
   position: absolute;
   content: " ";
@@ -374,6 +373,10 @@ button:hover {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   color: var(--white);
+}
+
+.sec4-item2 {
+  margin: 0px 5%;
 }
 
 .sec4-item .left {
@@ -890,7 +893,6 @@ button:hover {
   padding: 50px 0px;
   position: relative;
 }
-
 
 .sec8-parent,
 .sec8-title {
